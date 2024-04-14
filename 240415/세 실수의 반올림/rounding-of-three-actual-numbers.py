@@ -1,2 +1,3 @@
 for i in range(3):
-    print(f'{input().:2f}')
+    a = float(input())
+    print(f'{a:.3f}')
