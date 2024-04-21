@@ -1,5 +1,6 @@
 a = int(input())
 
+b = 0
 if a % 2 == 0:
     b = a / 2
 
