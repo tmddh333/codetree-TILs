@@ -1,8 +1,8 @@
 a, b, c = map(int, input().split())
 
-if a > b and a < c:
+if (a > b and a < c) or (a > c and a < b):
     print(a)
-elif b > c and c > a:
-    print(c)
-else:
+elif (b < c and b > a) or (b < a and b > c):
     print(b)
+else:
+    print(c)
