@@ -1,2 +1,2 @@
-lst = list(input().split())
+lst = list(map(int, input().split()))
 print(max(lst))
